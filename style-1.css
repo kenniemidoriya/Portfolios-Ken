@@ -1,0 +1,68 @@
+body {
+   height: 100vh;
+   width: auto;
+   background-image: url(backround3.jpg);
+   background-size: cover;
+   font-family: 'Segoe UI', Tahoma;
+   
+ }
+ span{
+   color: rgb(208, 231, 95);
+ }
+.text-center {
+   padding: auto;
+   font-size: 1.5rem;
+   color: #FF5B00;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero_title {
+ color: #8fc8c1;
+ font-size: 2.5rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.hero_desc {
+    font-size: 2.5rem;
+    
+}
+
+.demo2 {
+   font-size: 1.7rem;
+   align-items: center; 
+    
+}
+
+
+ .nav-bar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 80px;
+ }
+
+ .menu li {
+   list-style: none;
+   display: inline-block;
+   }
+   .menu li a{
+     text-decoration: none;
+     color: #db2f2f;
+     font-size: 25px;
+     margin-left: 25px;
+     transition: .4s ease;
+   }
+   .menu li a:hover{
+     color: #4CCD99;
+     padding: 5px 10px;
+     border: 2px solid #fff;
+   }
+    
+   .know {
+      font-size: 20px;
+      margin-left: 100px;
+      padding: 10px 50px;
+      align-items: center; 
+      position: absolute;
+   }
